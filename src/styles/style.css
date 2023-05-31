@@ -1,0 +1,32 @@
+.nav {
+    background-color: darkgreen;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    background-color: whitesmoke;
+    max-height: 50px;
+    max-width: 200px;
+    margin: 20px;
+    padding: 2px;
+    border: purple 2px;
+    border-width: 20px;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: whitesmoke;
+    height: 100vh;
+}
